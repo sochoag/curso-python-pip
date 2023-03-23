@@ -21,9 +21,9 @@ pip3 install -r requirements.txt
 python3 main.py
 ```
 
-# HTTP Request
+# WebServer
 
-Instalación de requirements para ejecucion de HTTP Request project
+Instalación de requirements para ejecucion de WebServer project
 
 ```sh
 git clone
@@ -31,5 +31,6 @@ cd app
 python3 -m venv env
 source env/bin/activate
 pip3 install -r requirements.txt
-python3 main.py
+uvicorn main:app --reload
 ```
+Y abrir la siguiente dirección web [Bienvenida](localhost:8000/contact)
