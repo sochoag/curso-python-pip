@@ -33,4 +33,4 @@ source env/bin/activate
 pip3 install -r requirements.txt
 uvicorn main:app --reload
 ```
-Y abrir la siguiente dirección web [Bienvenida](localhost:8000/contact)
+Y abrir la siguiente dirección web [Bienvenida](http://localhost:8000/)
